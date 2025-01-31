@@ -51,10 +51,10 @@ Após a implementação, a página conta com os seguintes elementos:
 ## 📸 Imagens do Projeto  
 
 ### 💻 Desktop  
-[Desktop](![discord-desktop](https://github.com/user-attachments/assets/93e2e41e-b94f-47d4-a30f-3afe867db214)
+[![Desktop](https://github.com/user-attachments/assets/93e2e41e-b94f-47d4-a30f-3afe867db214)](https://github.com/user-attachments/assets/93e2e41e-b94f-47d4-a30f-3afe867db214)
 
 ### 📱 Mobile  
-[Mobile](![discord-mobile](https://github.com/user-attachments/assets/ec76da4b-8164-4e63-b7c9-bbe3c706ddf9)
+[![Mobile](https://github.com/user-attachments/assets/ec76da4b-8164-4e63-b7c9-bbe3c706ddf9)](https://github.com/user-attachments/assets/ec76da4b-8164-4e63-b7c9-bbe3c706ddf9)
 
 ---
 
