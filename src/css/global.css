@@ -1,0 +1,220 @@
+body{
+    font-family: 'Open sans', sans-serif;
+}
+
+header{
+    background-image: url(../assets/images/header-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    width: 750px;
+    margin-top: -160px;
+    gap: 30px;
+}
+
+h1{
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-download{
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    margin: 0px 10px;
+    font-family: 'Open sans', sans-serif;
+    cursor: pointer;
+}
+
+.btn-open-in-web{
+    padding: 12px;
+    background-color: #23272A;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    margin: 0px 10px;
+    font-family: 'Open sans', sans-serif;
+    cursor: pointer;
+}
+
+.servers, .voice-channel, .community, .connection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 978px;
+    margin: 60px;
+    gap: 50px;
+}
+
+.servers img, .voice-channel img, .community img, .connection img{
+    width: 70%;
+}
+
+.texts h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.texts p{
+    font-size: 16px;
+    color: #23272A;
+}
+
+.voice-channel, .connection{
+    position: relative;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.voice-channel::before, .connection::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: #F6F6F6;
+    z-index: -1;
+}
+
+.connection{
+    width: 850px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.connection h2{
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+footer{
+    height: 100px;
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    height: 50px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 430px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header{
+        background-size: cover;
+        background-position: -700px;
+        height: 500px;
+    }
+    .header-content{
+        align-items: start;
+        width: 429px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    h1{
+        width: 200px;
+        font-size: 32px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+    p{
+        width: 400px;
+        text-align: left;
+    }
+    main{
+        margin-top: 0px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 400px;
+    }
+
+    .servers, .voice-channel, .community, .connection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 430px;
+    }
+
+    .servers img, .voice-channel img, .community img, .connection img{
+        width: 300px;
+    }
+
+    .servers h2, .voice-channel h2, .community h2, .connection h2{
+        font-size: 24px;
+        flex-wrap: wrap;
+        width: 350px;
+    }
+    
+    .servers p, .voice-channel p, .community p, .connection p{
+        font-size: 16px;
+        width: 350px;
+        flex-wrap: wrap;
+    }
+    .connection h2{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    header{
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1550px){
+    .btn-download, .btn-open-in-web{
+        width: 280px;
+        height: 45px;
+        font-size: 16px;
+    }
+    h1{
+        font-size: 72px;
+    }
+    .header-content p{
+        font-size: 20px;
+    }
+    .servers, .voice-channel, .community, .connection{
+        width: 1250px;
+    }
+    .servers p, .voice-channel p, .community p, .connection p{
+        font-size: 20px;
+    }
+}
