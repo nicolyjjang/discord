@@ -44,7 +44,7 @@ Após a implementação, a página conta com os seguintes elementos:
 ✔ **Rodapé estruturado** com links para informações úteis.  
 
 🔗 **Confira o resultado final do projeto:** 
-[Resultado]()
+[Resultado](https://nicolyjjang.github.io/discord/)
 
 ---
 
