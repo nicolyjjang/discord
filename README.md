@@ -6,7 +6,7 @@ Neste desafio, o objetivo foi **recriar a página inicial do Discord**, aplicand
 
 ## 🎯 Objetivo do Desafio  
 
-O desafio consistiu em reproduzir a interface da homepage do **Discord**, garantindo que o layout seja fiel ao original e adaptável a diferentes tamanhos de tela. Além disso, incentivamos a **personalização**, para que cada desenvolvedor(a) possa adicionar sua identidade visual ao projeto.  
+O desafio consistiu em reproduzir a interface da homepage do **Discord**, garantindo que o layout seja fiel ao original e adaptável a diferentes tamanhos de tela.
 
 ### 🔹 Elementos principais trabalhados:
 - **Header responsivo**: Com logo, menu de navegação e botões de ação.  
@@ -14,7 +14,7 @@ O desafio consistiu em reproduzir a interface da homepage do **Discord**, garant
 - **Blocos de conteúdo**: Seções explicativas sobre a plataforma.  
 - **Rodapé informativo**: Links úteis e informações adicionais.  
 
-Este desafio foi uma excelente oportunidade para aprofundar conhecimentos sobre **Flexbox**, **Media Queries** e boas práticas de estilização moderna no CSS.  
+Este desafio foi uma excelente oportunidade para aprofundar meus conhecimentos em **Flexbox** e **Media Queries**.  
 
 ---
 
@@ -56,10 +56,3 @@ Após a implementação, a página conta com os seguintes elementos:
 ### 📱 Mobile  
 <img src="https://github.com/user-attachments/assets/ec76da4b-8164-4e63-b7c9-bbe3c706ddf9" width="300">
 
----
-
-## 📌 Dicas para o Desafio  
-
-✅ Utilize **Flexbox** e **Grid Layout** para estruturar os elementos de forma eficiente.  
-✅ Teste a responsividade utilizando o **DevTools** do navegador.  
-✅ Personalize o design para deixar o projeto com a sua identidade.  
